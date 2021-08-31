@@ -33,7 +33,6 @@ public class CapabilityHelper {
         caps.setCapability("browserstack.user", System.getenv("BROWSERSTACK_USERNAME"));
         caps.setCapability("browserstack.key", System.getenv("BROWSERSTACK_ACCESS_KEY"));
 
-
         return caps;
     }
 }
