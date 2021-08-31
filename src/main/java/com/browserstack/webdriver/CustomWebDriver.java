@@ -104,13 +104,13 @@ public class CustomWebDriver implements WebDriver, JavascriptExecutor, TakesScre
         return ((JavascriptExecutor) driver).executeAsyncScript(script, args);
     }
 
-    public WebElement waitForVisibilityOf(WebElement element) {
-        logger.info("waitForVisibilityOf:: start");
-        return wait.until(ExpectedConditions.visibilityOf(element));
-    }
-
     @Override
     public <X> X getScreenshotAs(OutputType<X> target) throws WebDriverException {
         return ((TakesScreenshot) driver).getScreenshotAs(target);
+    }
+    
+    public WebElement waitForVisibilityOf(WebElement element) {
+        logger.info("waitForVisibilityOf:: start");
+        return wait.until(ExpectedConditions.visibilityOf(element));
     }
 }
