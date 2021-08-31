@@ -10,4 +10,4 @@ It contains some really nice features, like:
 - [Allure ScreenshotListener](../master/src/test/java/com/browserstack/utils/ScreenshotListener.java)
 - [CustomWebDriver (with waiting methods)](../master/src/main/java/com/browserstack/webdriver/CustomWebDriver.java)
 
-Feel free to contact me in case of any questions.
+Feel free to contact me in case of any questions roy (at) testsmith (dot) com.
