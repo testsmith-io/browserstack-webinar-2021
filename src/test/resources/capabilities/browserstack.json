@@ -1,0 +1,52 @@
+{
+  "capabilities": {
+    "common_caps": {
+      "project": "browserstack-webinar",
+      "build": "browserstack-webinar",
+      "name": "BrowserStack Webinar",
+      "browserstack.debug": "true",
+      "browserstack.networkLogs": "true",
+      "browserstack.console": "verbose"
+    },
+    "env_caps": [
+      {
+        "os": "Windows",
+        "os_version": "10",
+        "browser": "Chrome",
+        "browser_version": "latest-1",
+        "browserstack.selenium_version": "3.141.59",
+        "browserstack.sendKeys": true
+      },
+      {
+        "os": "Windows",
+        "os_version": "10",
+        "browser": "Internet Explorer",
+        "browser_version": "11.0"
+      },
+      {
+        "os": "OS X",
+        "os_version": "Big Sur",
+        "browser": "Chrome",
+        "browser_version": "latest"
+      },
+      {
+        "os": "OS X",
+        "os_version": "Catalina",
+        "browser": "Safari",
+        "browser_version": "latest"
+      },
+      {
+        "os": "Android",
+        "os_version": "11.0",
+        "device": "Samsung Galaxy S21",
+        "realMobile": true
+      },
+      {
+        "os": "iPhone",
+        "os_version": "14.0",
+        "device": "iPhone 12 Pro Max",
+        "realMobile": true
+      }
+    ]
+  }
+}

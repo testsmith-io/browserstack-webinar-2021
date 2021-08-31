@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Single">
+    <test name="BStackDemo 1">
+        <classes>
+            <class name="com.browserstack.browserstack_integration.e2e.OrderTest"/>
+            <class name="com.browserstack.browserstack_integration.login.LoginTest"/>
+            <class name="com.browserstack.browserstack_integration.login.LoginFailTest"/>
+        </classes>
+    </test>
+</suite>
